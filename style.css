@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    min-height: 100vh; 
+    background-color: #1f1d2a;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+}
+
+button {
+    height: 45px;
+    width: 45px;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none; 
+    border-radius: 10px;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+.jogo{
+    text-align: center;
+    place-items: center;
+    gap: 30px;
+}
+
+#forca-img{
+    height: 300px;
+    width: auto;
+}
+
+.teclado {
+    display: grid;
+    place-items: center;
+    gap: 5px;
+    height: 100%;
+}
+
+.icone-apagar {
+    width: 20px;
+}
+
+.conteudo {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 70px;
+}  
+
+.notificacao-acerto {
+    text-align: center;
+
+    color: #4cfd4c;
+
+    border: 1px solid #4cfd4c;
+    border-radius: 15px;
+
+    padding: 10px;
+    max-width: 400px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notificacao-erro {
+    text-align: center;
+    color: #ff1c1c;
+
+    border: 1px solid #ff1c1c;
+    border-radius: 15px;
+
+    position: absolute;
+
+    left: 0;
+    right:0;
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+}
